@@ -6,10 +6,13 @@ import { Users, Plus, LayoutDashboard } from "lucide-react";
 
 const navItems = [
   { name: "Dashboard", href: "/dashboard", icon: LayoutDashboard },
-  { name: "All Customers", href: "/dashboard/customers", icon: Users },
-  { name: "All Services", href: "/dashboard/services", icon: Users },
-  { name: "New Customer", href: "/dashboard/customers/new", icon: Plus },
-   { name: "New Service", href: "/dashboard/services/new", icon: Plus },
+   { name: "All Projects", href: "/projects", icon: Users },
+   { name: "New Project", href: "/projects/new", icon: Users },
+  { name: "All Customers", href: "/customers", icon: Users },
+  { name: "All Services", href: "/services", icon: Users },
+  { name: "New Customer", href: "/customers/new", icon: Plus },
+   { name: "New Service", href: "/services/new", icon: Plus },
+   
 ];
 
 export function Sidebar() {
